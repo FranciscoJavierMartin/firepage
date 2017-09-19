@@ -80,6 +80,28 @@ body{
 footer{
 	background: $gris_oscuro;
 	color: #fff;
+	text-align: center;
+
+}
+
+footer .redes-sociales{
+	list-style: none;
+	display: flex;
+	justify-content: center;
+	margin: 0;
+	
+}
+
+footer .redes-sociales li a{
+	/*padding: 0 1rem ;*/
+	font-size: 1.8rem;
+	margin: 0 .6rem;
+	color: #fff;
+	opacity: 1;
+}
+
+footer .redes-sociales li a:hover{
+	opacity: .7;
 }
 
 /* MEDIA QUERIES */
