@@ -1,0 +1,89 @@
+
+
+/* DEFINICIO DE COLORES */
+$gris_claro: #eeeeee;
+$gris_oscuro: #111111;
+$principal: #48D1CC;
+
+
+body{
+	background: $gris_claro;
+}
+
+/* PAGINA INDEX */
+
+/* SECCION CABECERA */
+
+.cabecera{
+	background: url("../images/sunset.jpg") no-repeat center top;
+	background-size: cover;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+}
+
+.barra-superior{
+	background: $gris_oscuro;
+	color: #fff;
+	padding: .5rem 0;
+}
+
+.barra-superior .container{
+	display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.boton-menu{
+	border: 0;
+    font-size: 2rem;
+    margin: 0;
+    padding: 0 .5rem;
+    background: transparent;
+    color: #fff;
+}
+
+.boton-menu:focus{
+	outline: 0;
+}
+
+#menu-principal{
+	flex: 1 1 100%;
+}
+
+#menu-principal ul{
+	padding: 0;
+	list-style: none;
+	margin: 1rem 0 0 0;
+}
+
+#menu-principal ul a{
+	display: block;
+	text-decoration: none;
+	text-transform: uppercase;
+	text-align: center;
+	color: #fff;
+	outline: 0;
+	padding: .8rem 0;
+	border-top: 1px solid #8c8888;
+}
+
+#menu-principal ul li.active a,
+#menu-principal ul li a:hover{
+	color: $principal;
+}
+
+
+
+/* SECCION FOOTER */
+
+footer{
+	background: $gris_oscuro;
+	color: #fff;
+}
+
+/* MEDIA QUERIES */
+
+@media (min-width: 992px){
+	
+}
