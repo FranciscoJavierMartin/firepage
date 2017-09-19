@@ -20,6 +20,7 @@ body{
 	height: 100vh;
 	display: flex;
 	flex-direction: column;
+	background-attachment: fixed !important;
 }
 
 .barra-superior{
@@ -104,6 +105,46 @@ footer .redes-sociales li a:hover{
 	opacity: .7;
 }
 
+/* PAGINA PROYECTOS */
+
+/* SECCION LISTA PROYECTOS*/
+
+.lista-proyectos{
+	display: flex;
+}
+
+.proyecto{
+	/*width: 250px;*/
+	text-align: center;
+	margin-bottom: 1rem;
+    padding: 1rem;
+	flex: 1 1 auto;
+	
+}
+
+.proyecto .card{
+	box-shadow: 10px 10px 5px #888888;
+	justify-content:center;
+	
+}
+
+.proyecto .card-img-top{
+	text-align: center;
+	width: 90%;
+	margin: 5%;
+	margin-top: 10px;
+	
+}
+
+.proyecto .card-title{
+	padding: .5rem;
+}
+
+.proyecto a{
+	margin-top: auto;
+	margin-bottom: 15px;
+}
+
 /* MEDIA QUERIES */
 
 @media (min-width: 768px){
@@ -138,7 +179,5 @@ footer .redes-sociales li a:hover{
 }
 
 @media (min-width: 992px){
-	body{
-		background: blue;
-	}
+	
 }

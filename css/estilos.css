@@ -14,7 +14,8 @@ body {
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
-          flex-direction: column; }
+          flex-direction: column;
+  background-attachment: fixed !important; }
 
 .barra-superior {
   background: #111111;
@@ -92,6 +93,42 @@ footer .redes-sociales li a {
 footer .redes-sociales li a:hover {
   opacity: .7; }
 
+/* PAGINA PROYECTOS */
+/* SECCION LISTA PROYECTOS*/
+.lista-proyectos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+
+.proyecto {
+  /*width: 250px;*/
+  text-align: center;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto; }
+
+.proyecto .card {
+  -webkit-box-shadow: 10px 10px 5px #888888;
+          box-shadow: 10px 10px 5px #888888;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+
+.proyecto .card-img-top {
+  text-align: center;
+  width: 90%;
+  margin: 5%;
+  margin-top: 10px; }
+
+.proyecto .card-title {
+  padding: .5rem; }
+
+.proyecto a {
+  margin-top: auto;
+  margin-bottom: 15px; }
+
 /* MEDIA QUERIES */
 @media (min-width: 768px) {
   #menu-principal {
@@ -122,8 +159,5 @@ footer .redes-sociales li a:hover {
   #menu-principal ul li.active a {
     border-bottom: 4px solid;
     color: #48D1CC; } }
-@media (min-width: 992px) {
-  body {
-    background: blue; } }
 
 /*# sourceMappingURL=estilos.css.map */
