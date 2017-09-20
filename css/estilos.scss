@@ -119,35 +119,43 @@ footer .redes-sociales li a:hover{
 	margin-bottom: 1rem;
     padding: 1rem;
 	flex: 1 1 auto;
-	
 }
 
 .proyecto .card{
 	box-shadow: 10px 10px 5px #888888;
 	justify-content:center;
+	height: 400px;
 	
 }
 
-.proyecto .card-img-top{
-	text-align: center;
-	width: 90%;
-	margin: 5%;
-	margin-top: 10px;
-	
+.proyecto .card-img-top img-fluid{
+	/*text-align: center;*/
+	/*width: 200px;
+	height: 200px;*/
+	/*margin: 0 5%;*/
+	/*margin-top: 10px;*/
+	/*margin: .2rem 0;
+	padding: .2rem 0;*/
+
 }
 
 .proyecto .card-title{
-	padding: .5rem;
+	/*padding: .5rem;
+	margin-bottom: auto;*/
 }
 
-.proyecto a{
+.proyecto .card .btn-primary{
 	margin-top: auto;
-	margin-bottom: 15px;
 }
 
 /* PAGINA TUTORIALES */
 
 /* SECCION LISTA TUTORIALES*/
+
+.card .card-block a .btn .btn-primary{
+	outline: 0;
+	border: 0px;
+}
 
 
 /* MEDIA QUERIES */

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<title>Mi propia página - Spring - Agenda de contactos</title>
+
+
+	<!--Cargando iconos-->
+	<link rel="stylesheet" type="text/css" href="../css/font-awesome.min.css">
+
+	<!--Carga de css-->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+
+	<link rel="stylesheet" type="text/css" href="../css/estilos.css">
+
+	<!--Carga de javascript-->
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+
+</head>
+<body>
+	<section class="cabecera">
+		<header class="barra-superior navbar fixed-top" role="banner" id="barra">
+			<div class="container">
+
+				<a href="index.html" class="logo">
+					<img src="" alt="Logo del sitio">
+				</a>
+
+				<button class="boton-menu d-md-none" data-target="#menu-principal" data-toggle="collapse" aria-expanded="false">
+					<i class="fa fa-bars" aria-hidden="true"></i>
+				</button>
+
+				<nav id="menu-principal" class="collapse">
+					<ul>
+						<li >
+							<a href="index.html">Inicio</a>
+						</li>
+						<li class="active">
+							<a href="../proyectos.html">Proyectos</a>
+						</li>
+						<li>
+							<a href="tutoriales.html">Tutoriales</a>
+						</li>
+						<li>
+							<a href="contacto.html">Contacto</a>
+						</li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+	</section>
+
+	<main>
+		<div class="container">
+			<img src="../images/Python-logo-notext.svg" class="img-fluid" alt="Responsive image">
+			<a href="">Agenda de contactos</a>
+			<div>
+				<p>Se trata de un proyecto que recrea una agenda de contactos con las funcionalidades típicas tales como guardar contactos, ver los ya existentes, modificarlos o borrarlos de la base de datos. Para desarrollar todo el proyecto se han usado las siguientes tecnologías:</p>
+
+				<ul>
+					<li>
+						<strong>Spring</strong><p>Framework para el desarrollo web basado en la plataforma Java Enterprise.</p>
+					</li>
+					<li>
+						<strong>Spring Boot</strong><p>Framework sobre el framework que simplifica la creación de proyectos. Dispone ademas de una herramienta web para crear proyectos con todas las dependencias necesarias.</p>
+					</li>
+					<li>
+						<strong>Thymeleaf</strong><p>Motor de plantillas, el cual se integra perfectamente con Spring.</p>
+					</li>
+					<li>
+						<strong>MySQL</strong><p>Motor de base de datos relacional open source.</p>
+					</li>
+					<li>
+						<strong>Hibernate</strong><p>ORM (Object Relational Mapping) escrito en Java. Transforma las filas de una tabla de la base de datos</p>
+					</li>
+					<li>
+						<strong>Spring Security</strong><p>Módulo del proyecto Spring para labores de seguridad. Se trata de uno de sus primeros módulos y uno de los mas desarrollados del proyecto.</p>
+					</li>
+					<li>
+						<strong>Spring MVC</strong><p>Módulo basado en el patrón de arquitectura Modelo - Vista - Controlador. Separa la funcionalidad en capas para permitir una mejor modularidad del código.</p>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</main>
+
+	<footer class="py-3">
+		<p>Agregar aqui licencia Creative Commons</p>
+		<ul class="redes-sociales">
+			<li>
+				<a href=""><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+			</li>
+			<li>
+				<a href=""><i class="fa fa-github" aria-hidden="true"></i></a>
+			</li>
+		</ul>
+	</footer>
+</body>
+</html>
